@@ -1,3 +1,5 @@
+SPRING_BOOT MAVEN JDK21
+
 Le travail consiste à concevoir un système de gestion d'employés en utilisant le framework Spring Boot. Nous allons suivre une architecture basée sur Maven et utiliser les dépendances suivantes : Spring Web, Lombok, Spring Data JPA et MySQL.
 
 Conception de l'architecture du système :
