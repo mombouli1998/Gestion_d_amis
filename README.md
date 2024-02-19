@@ -1,5 +1,7 @@
 # Gestions d'employés (Spring_Boot maven java jdk21)
 
+Le travail consiste à concevoir un système de gestion d'employés en utilisant le framework Spring Boot. Nous allons suivre une architecture basée sur Maven et utiliser les dépendances suivantes : Spring Web, Lombok, Spring Data JPA et MySQL.
+
 Pour exécuter le projet Spring Boot avec Maven et accéder à la ressource /Employes via une requête HTTP sur http://localhost:8080, vous pouvez suivre ces étapes :
 
 Compilation du code avec Maven :
