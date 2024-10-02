@@ -1,28 +1,10 @@
-# Gestion d'employés (Spring_Boot maven java jdk21)
+### Gestion d'amis (Spring_Boot maven java jdk21)
 
-Le travail consiste à concevoir un système de gestion d'employés en utilisant le framework Spring Boot. Nous allons suivre une architecture basée sur Maven et utiliser les dépendances suivantes : Spring Web, Lombok, Spring Data JPA et MySQL.
+## Description :
+Concevez un système permettant aux utilisateurs de gérer leurs amis, avec des fonctionnalités telles que l'ajout, la suppression, la modification et la visualisation de leurs contacts.
 
-Pour exécuter le projet Spring Boot avec Maven et accéder à la ressource /Employes via une requête HTTP sur http://localhost:8080, vous pouvez suivre ces étapes :
+## Frontend (Thymeleaf) :
+Affichage de la liste des amis, gestion des formulaires pour l'ajout et la modification des informations des amis, validation des champs.
 
-Compilation du code avec Maven :
-
-Ouvrez un terminal sur votre ordinateur.
-Assurez-vous que vous avez le code source du projet Spring Boot sur votre machine.
-Utilisez la commande suivante pour compiler le code avec Maven :
-
-```mvn compile```
-
-Exécution du code avec Maven :
-
-Utilisez la commande suivante pour exécuter le code avec Maven :
-
-```mvn spring-boot:run```
-
-Accès à la ressource via une requête HTTP :
-
-Ouvrez un navigateur web
-Entrez l'URL suivante dans la barre d'adresse :
-
-```http://localhost:8080/Employes```
-
-Envoyez la requête HTTP
+## Backend (Spring Boot) :
+API REST pour gérer les amis (CRUD), intégration d'une base de données relationnelle (MySQL) pour stocker les informations des utilisateurs. Ce système sera développé en suivant une architecture basée sur Maven et utilisera les dépendances suivantes : Spring Web, Lombok, Spring Data JPA et Thymeleaf. Veuillez noter que ce système ne comprend pas la possibilité de se connecter.
