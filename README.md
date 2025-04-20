@@ -1,10 +1,30 @@
-### Gestion d'amis (Spring_Boot maven java jdk21)
+# 👥 Gestion d'Amis – Application Web avec Spring Boot  
+🛠️ Spring Boot, Maven, JDK 21, Thymeleaf, MySQL
 
-## Description :
-Concevez un système permettant aux utilisateurs de gérer leurs amis, avec des fonctionnalités telles que l'ajout, la suppression, la modification et la visualisation de leurs contacts.
+## 📌 Description
+Le projet **Gestion d'Amis** permet à des utilisateurs de gérer leurs contacts en ligne.  
+Les fonctionnalités principales incluent l'ajout, la suppression, la modification et la visualisation des amis. Ce système est développé avec **Spring Boot**, en utilisant une architecture **Maven**.
 
-## Frontend (Thymeleaf) :
-Affichage de la liste des amis, gestion des formulaires pour l'ajout et la modification des informations des amis, validation des champs.
+## 💻 Frontend (Thymeleaf)
+L'interface utilisateur permet de :
+- Visualiser une **liste d'amis**.
+- Gérer les **formulaires** pour ajouter et modifier des amis.
+- **Validation des champs** pour garantir que les informations sont correctes.
 
-## Backend (Spring Boot) :
-API REST pour gérer les amis (CRUD), intégration d'une base de données relationnelle (MySQL) pour stocker les informations des utilisateurs. Ce système sera développé en suivant une architecture basée sur Maven et utilisera les dépendances suivantes : Spring Web, Lombok, Spring Data JPA et Thymeleaf. Veuillez noter que ce système ne comprend pas la possibilité de se connecter.
+## 🔙 Backend (Spring Boot)
+L'API REST permet de gérer les amis avec les opérations suivantes :
+- **Création** d'amis (Ajout).
+- **Lecture** des amis (Affichage).
+- **Mise à jour** des informations des amis (Modification).
+- **Suppression** d'amis.
+
+Les données sont stockées dans une **base de données MySQL**. Le projet suit une architecture **Maven** et utilise les technologies suivantes :
+- **Spring Web** pour créer les API REST.
+- **Spring Data JPA** pour l’interaction avec la base de données.
+- **Lombok** pour générer automatiquement des getters, setters, et autres méthodes utiles.
+- **Thymeleaf** pour rendre les vues et gérer l'affichage dynamique.
+
+> **Remarque** : Ce projet **ne comporte pas** de fonctionnalité de connexion utilisateur.
+
+---
+
